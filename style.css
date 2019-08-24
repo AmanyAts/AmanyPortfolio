@@ -41,6 +41,9 @@ header {
 top: 50%;
     
   }
+  nav img{
+    margin-left: 10px;
+  }
   main{
     /* background-image: url(paper.jpg) ; */
     /* color: white; */
@@ -128,11 +131,6 @@ top: 50%;
     margin:10px;
     color:black;
 
-    /* border: 2px solid black;
-    background-color: antiquewhite;
-    box-shadow: 2px 2px red;
-    
-    color:black; */
     
   }
   .card-text{
@@ -168,38 +166,7 @@ top: 50%;
     opacity: 1;
   }
   
-  .popup {
-    margin: 70px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    width: 30%;
-    position: relative;
-    transition: all 5s ease-in-out;
-  }
   
-  .popup h2 {
-    margin-top: 0;
-    color: #333;
-    font-family: Tahoma, Arial, sans-serif;
-  }
-  .popup .close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    transition: all 200ms;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #333;
-  }
-  .popup .close:hover {
-    color: #06D85F;
-  }
-  .popup .content {
-    max-height: 30%;
-    overflow: auto;
-  }
  .myWork{
    /* margin-left: 20%; */
    display: flex;
