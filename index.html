@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
 </head>
-<body>
+<body >
     <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
     <div class="w3-container">
@@ -39,9 +39,11 @@
      <img   src="twitter.png" height="20px" width="20px"/><a href="https://twitter.com/MoooNy_AA"></a> 
     
   </nav>
+  <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
 
   
-    <header id='home' >
+    <header  id='home' >
         <!-- <h3 >Amany's Portfolio</h3> -->
 <h1 class='hello'>Hi ! My name is Amany </h1>
 
@@ -59,7 +61,7 @@
                 </p>
         <br>
         <h2> Skills</h2><br>
-    <ul>
+    <ul id="skills">
             
         <li>Back-end and front-end coding</li>
         <li>Game and VR development</li>

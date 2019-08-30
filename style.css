@@ -197,6 +197,30 @@ top: 50%;
     text-decoration: none;
     cursor: pointer;
   }
+  @media screen and (max-width: 992px) {
+    /* body {
+      background-color: olive;
+      color: white;
+    } */
+    header,main,footer{
+      margin-left: 0;
+    }
+    #skills{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .myWork{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 600px){
+    ul{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
   
   
  
