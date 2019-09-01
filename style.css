@@ -204,6 +204,13 @@ top: 50%;
     } */
     header,main,footer{
       margin-left: 0;
+      
+    }
+    .hello{
+      font-size: 30px;
+    } 
+    nav{
+      float: none !important;
     }
     #skills{
       display: flex;
