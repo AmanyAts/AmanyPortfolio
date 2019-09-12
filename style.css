@@ -36,12 +36,14 @@ header {
   .hello{
     text-align: center;
     text-shadow: 2px 2px 8px lightslategray;
-    /* margin: 13% 60px 60px 80px; */
     font-weight: bold;
     font-size: 35px;
     position: relative;
-top: 50%;
+    top: 50%;
     
+  }
+  .hello span{
+    font-size: 20px;
   }
   nav img{
     margin-left: 10px;
