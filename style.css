@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&effect=brick-sign');
+
 body{
     margin:0;
 
@@ -51,14 +53,15 @@ top: 50%;
     margin-top: -1%;
     background-color:whitesmoke; 
     background-size: cover;
-    
-    font-family: 'Hepta Slab', serif;
+    /* font-family: 'Abril Fatface', cursive; */
+    color: gray;
+    font-family:"Comic Sans MS", cursive, sans-serif;
     border-bottom:2px solid#000; 
   }
   main h2{
-    font-family: 'Abril Fatface', cursive;
+    font-family: "Lobster", Sans-serif;
     color: #6acdde;
-    text-shadow:  2px 2px 3px rgb(33, 43, 53);
+    /* text-shadow:  2px 2px 3px rgb(33, 43, 53); */
     /* text-shadow: 1px 1px red; */
 
   }
